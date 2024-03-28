@@ -1,0 +1,48 @@
+.Navbar {
+  background-color: #e2aa79;
+
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.8rem;
+  margin-top: 0.4rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+ul li {
+  float: right;
+  list-style: none;
+  margin-right: 1rem;
+}
+
+ul li:first-child {
+  margin-right: 2rem;
+}
+.navText {
+  color: #291706;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+button {
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 450px) {
+  .mob-nav {
+    display: flex !important;
+    flex-direction: column;
+    background-color: rgb(2, 2, 77);
+  }
+}
